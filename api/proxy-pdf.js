@@ -1,13 +1,13 @@
 export default async function handler(req, res) {
   const { order } = req.query;
 
-  const apiUrl = `https://api.portnumbers.com/generate-pdf?order=${order}`;
+  const apiUrl = `}`;
 
   try {
     const pdfResponse = await fetch(apiUrl, {
       method: 'GET',
       headers: {
-        'x-api-key': 'MaFYeWAVFk3piIpHqVMxlCs+fk3PkYfUcYp/fzRKKvo='
+        'x-api-key':
       }
     });
 
